@@ -3,20 +3,54 @@ import HelpWhite from "../assets/icons/HelpWhite.svg";
 import Help from "../assets/icons/Help.svg";
 import ChevronRightWhite from "../assets/icons/ChevronRightWhite.svg";
 import ChevronRightBlue from "../assets/icons/ChevronRightBlue.svg";
+import { useState } from "react";
 
 export default function Overview() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen((prevState) => !prevState);
+  };
   return (
     <>
-      <div className="w-full h-9 justify-between items-center inline-flex">
+      <div className="mt-5 w-full h-9 justify-between items-center inline-flex">
         <div className="text-zinc-900 text-xl font-medium font-['Galano Grotesque'] leading-7">
           Overview
         </div>
         <div className="justify-start items-center gap-4 flex flex-row">
-          <div className="h-[36px] bg-white rounded border-[1.5px] border-zinc-300 flex justify-center items-center px-3">
+          {/* <div className="h-[36px] bg-white rounded border-[1.5px] border-zinc-300 flex justify-center items-center px-3">
             <div className=" text-neutral-600 text-base font-normal font-['Galano Grotesque'] leading-normal">
               This Month
             </div>
             <img className="w-4 h-4 ml-2" src={ChevronDownDark} />
+          </div> */}
+
+          <div className="relative">
+            <button
+              className="flex items-center bg-white rounded border-[1.5px] border-zinc-300 px-3 py-2"
+              onClick={toggleDropdown}
+            >
+              <span className="text-neutral-600 text-base font-normal font-GalanoGrotesque leading-normal">
+                This Month
+              </span>
+              <img
+                className="w-4 h-4 ml-2"
+                src={ChevronDownDark}
+                alt="Chevron Down"
+              />
+            </button>
+            {isDropdownOpen && (
+              <div className="absolute top-full left-0 mt-1 w-full bg-white border-[1.5px] border-zinc-300 rounded">
+                <ul className="py-2">
+                  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    This month
+                  </li>
+                  <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    This week
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -39,7 +73,7 @@ export default function Overview() {
                 <div className="text-white text-[32px] font-medium font-['Galano Grotesque'] leading-[38px]">
                   ₹2,312.23
                 </div>
-                <div className="justify-start items-center flex">
+                <div className="justify-start cursor-pointer items-center flex">
                   <div className="justify-start items-start gap-2 flex">
                     <div className="text-white text-base font-medium font-['Galano Grotesque'] underline leading-normal">
                       23 orders
@@ -72,7 +106,7 @@ export default function Overview() {
                 <div className="text-zinc-900 text-[32px] font-medium font-['Galano Grotesque'] leading-[38px]">
                   ₹92,312.20
                 </div>
-                <div className="justify-start items-center flex">
+                <div className="justify-start cursor-pointer items-center flex">
                   <div className="justify-start items-start gap-2 flex">
                     <div className="text-sky-700 text-base font-medium font-['Galano Grotesque'] underline leading-normal">
                       13 orders

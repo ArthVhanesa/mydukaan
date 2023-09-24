@@ -6,7 +6,7 @@ import Transactions from "./components/Transactions";
 export default function App() {
   return (
     <>
-      <div className="inline-flex w-full">
+      <div className="inline-flex w-full bg-zinc-50">
         <SideNav />
         <div className="w-full pl-56">
           <Navbar />
