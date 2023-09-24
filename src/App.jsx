@@ -1,3 +1,21 @@
+import SideNav from "./components/SideNav";
+import Navbar from "./components/Navbar";
+import Overview from "./components/Overview";
+import Transactions from "./components/Transactions";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <div className="inline-flex w-full">
+        <SideNav />
+        <div className="w-full pl-56">
+          <Navbar />
+          <div className="px-8 py-4">
+            <Overview />
+            <Transactions />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
