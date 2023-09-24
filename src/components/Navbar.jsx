@@ -13,7 +13,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="justify-start items-center gap-1.5 flex">
-          <img className="w-3.5 h-3.5 relative" src={Help} />
+          <img className="w-3.5 h-3.5 relative cursor-pointer" src={Help} />
           <div className="text-neutral-600 text-xs font-normal leading-none">
             How it works
           </div>

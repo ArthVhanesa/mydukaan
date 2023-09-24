@@ -66,7 +66,10 @@ export default function Overview() {
                   <div className="text-white text-base font-normal font-['Galano Grotesque'] leading-normal">
                     Next Payout
                   </div>
-                  <img className="w-4 h-4 relative" src={HelpWhite} />
+                  <img
+                    className="w-4 h-4 relative cursor-pointer"
+                    src={HelpWhite}
+                  />
                 </div>
               </div>
               <div className="self-stretch justify-between items-center inline-flex">
@@ -100,7 +103,7 @@ export default function Overview() {
                 <div className="text-neutral-600 text-base font-normal font-['Galano Grotesque'] leading-normal">
                   Amount Pending
                 </div>
-                <img className="w-4 h-4 relative" src={Help} />
+                <img className="w-4 h-4 relative cursor-pointer" src={Help} />
               </div>
               <div className="self-stretch justify-between items-center inline-flex">
                 <div className="text-zinc-900 text-[32px] font-medium font-['Galano Grotesque'] leading-[38px]">
@@ -125,7 +128,7 @@ export default function Overview() {
                 <div className="text-neutral-600 text-base font-normal font-['Galano Grotesque'] leading-normal">
                   Amount Processed
                 </div>
-                <img className="w-4 h-4 relative" src={Help} />
+                <img className="w-4 h-4 relative cursor-pointer" src={Help} />
               </div>
               <div className="self-stretch justify-between items-center inline-flex">
                 <div className="grow shrink basis-0 h-[38px] justify-between items-center flex">

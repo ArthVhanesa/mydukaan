@@ -25,7 +25,7 @@ export default function SideNav() {
                 <div className="self-stretch text-white text-[15px] font-medium ">
                   Nishyan
                 </div>
-                <div className="self-stretch opacity-80 text-white text-[13px] font-normal  underline">
+                <div className="self-stretch opacity-80 text-white text-[13px] font-normal cursor-pointer underline">
                   Visit store
                 </div>
               </div>
@@ -33,74 +33,74 @@ export default function SideNav() {
             </div>
 
             <div className="w-52 grow shrink basis-0 flex-col justify-start items-start gap-1 flex">
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Home} />
                 <div className="opacity-80 text-white text-sm font-medium">
                   Home
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Orders} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Orders
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Catalogue} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Products
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Delivery} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Delivery
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Marketing} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Marketing
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Analytics} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Analytics
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 bg-white bg-opacity-10 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 bg-white bg-opacity-10 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Payments} />
 
                 <div className="text-white text-sm font-medium">Payouts</div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Discounts} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Discounts
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Customers} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Audience
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Appearance} />
 
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Appearance
                 </div>
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex">
+              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Plugin} />
                 <div className="opacity-80 text-white text-sm font-medium  ">
                   Plugins
