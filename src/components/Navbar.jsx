@@ -38,12 +38,12 @@ export default function Navbar() {
 
       <div className="w-[33%] grow shrink basis-0 h-10 justify-end items-start gap-2 flex">
         <div className="justify-start items-start gap-3 flex">
-          <div className="w-10 h-10 relative">
+          <div className="w-10 h-10 relative cursor-pointer">
             <div className="w-10 h-10 left-0 top-0 flex justify-center items-center absolute bg-neutral-200 rounded-full">
               <img src={Feedback} alt="" />
             </div>
           </div>
-          <div className="w-10 h-10 relative">
+          <div className="w-10 h-10 relative cursor-pointer">
             <div className="w-10 h-10 left-0 top-0 flex justify-center items-center absolute bg-neutral-200 rounded-full">
               <img src={SortArrow} alt="" />
             </div>
