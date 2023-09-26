@@ -22,10 +22,10 @@ export default function SideNav() {
             <div className="w-48 justify-start items-center gap-3 inline-flex">
               <img className="w-[42px] h-[42px] rounded" src={Image} />
               <div className="grow shrink basis-0 flex-col justify-center items-start gap-1 inline-flex">
-                <div className="self-stretch text-white text-[15px] font-medium ">
+                <div className="self-stretch text-white text-[15px] font-medium font-GalanoGrotesque-medium font-GalanoGrotesque-medium">
                   Nishyan
                 </div>
-                <div className="self-stretch opacity-80 text-white text-[13px] font-normal cursor-pointer underline">
+                <div className="self-stretch opacity-80 text-white text-[13px] font-GalanoGrotesque-regular cursor-pointer underline">
                   Visit store
                 </div>
               </div>
@@ -35,74 +35,76 @@ export default function SideNav() {
             <div className="w-52 grow shrink basis-0 flex-col justify-start items-start gap-1 flex">
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Home} />
-                <div className="opacity-80 text-white text-sm font-medium">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium">
                   Home
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Orders} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Orders
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Catalogue} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Products
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Delivery} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Delivery
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Marketing} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Marketing
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Analytics} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Analytics
                 </div>
               </div>
               <div className="w-52 px-4 py-2 bg-white bg-opacity-10 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Payments} />
 
-                <div className="text-white text-sm font-medium">Payouts</div>
+                <div className="text-white text-sm font-medium font-GalanoGrotesque-medium">
+                  Payouts
+                </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Discounts} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Discounts
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Customers} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Audience
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Appearance} />
 
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Appearance
                 </div>
               </div>
               <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
                 <img className="w-5 h-5 relative opacity-80" src={Plugin} />
-                <div className="opacity-80 text-white text-sm font-medium  ">
+                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
                   Plugins
                 </div>
               </div>
@@ -121,10 +123,10 @@ export default function SideNav() {
               </div>
             </div>
             <div className="flex-col justify-center items-start gap-0.5 inline-flex">
-              <div className="opacity-80 text-white text-[13px] font-normal  leading-none">
+              <div className="opacity-80 text-white text-[13px] font-normal font-GalanoGrotesque-regular  leading-none">
                 Available credits
               </div>
-              <div className="text-white text-base font-medium  leading-normal">
+              <div className="text-white text-base font-medium font-GalanoGrotesque-medium  leading-normal">
                 222.10
               </div>
             </div>

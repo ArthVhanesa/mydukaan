@@ -14,12 +14,12 @@ export default function Overview() {
   return (
     <>
       <div className="mt-5 w-full h-9 justify-between items-center inline-flex">
-        <div className="text-zinc-900 text-xl font-medium font-['Galano Grotesque'] leading-7">
+        <div className="text-zinc-900 text-xl font-medium font-GalanoGrotesque-medium font-GalanoGrotesque-medium leading-7">
           Overview
         </div>
         <div className="justify-start items-center gap-4 flex flex-row">
           {/* <div className="h-[36px] bg-white rounded border-[1.5px] border-zinc-300 flex justify-center items-center px-3">
-            <div className=" text-neutral-600 text-base font-normal font-['Galano Grotesque'] leading-normal">
+            <div className=" text-neutral-600 text-base font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-normal">
               This Month
             </div>
             <img className="w-4 h-4 ml-2" src={ChevronDownDark} />
@@ -30,7 +30,7 @@ export default function Overview() {
               className="flex items-center bg-white rounded border-[1.5px] border-zinc-300 px-3 py-2"
               onClick={toggleDropdown}
             >
-              <span className="text-neutral-600 text-base font-normal font-GalanoGrotesque leading-normal">
+              <span className="text-neutral-600 text-base font-normal font-GalanoGrotesque-regular font-GalanoGrotesque leading-normal">
                 This Month
               </span>
               <img
@@ -40,7 +40,7 @@ export default function Overview() {
               />
             </button>
             {isDropdownOpen && (
-              <div className="absolute top-full left-0 mt-1 w-full bg-white border-[1.5px] border-zinc-300 rounded">
+              <div className="absolute top-full left-0 mt-1 w-full bg-white border-[1.5px] border-zinc-300 rounded z-10">
                 <ul className="py-2">
                   <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
                     This month
@@ -63,7 +63,7 @@ export default function Overview() {
             <div className="self-stretch h-[78px] flex-col justify-start items-start gap-4 flex">
               <div className="self-stretch justify-between items-center inline-flex">
                 <div className="justify-start items-center gap-2 flex">
-                  <div className="text-white text-base font-normal font-['Galano Grotesque'] leading-normal">
+                  <div className="text-white text-base font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-normal">
                     Next Payout
                   </div>
                   <img
@@ -73,12 +73,12 @@ export default function Overview() {
                 </div>
               </div>
               <div className="self-stretch justify-between items-center inline-flex">
-                <div className="text-white text-[32px] font-medium font-['Galano Grotesque'] leading-[38px]">
+                <div className="text-white text-[32px] font-medium font-GalanoGrotesque-medium font-['Galano Grotesque'] leading-[38px]">
                   ₹2,312.23
                 </div>
                 <div className="justify-start cursor-pointer items-center flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="text-white text-base font-medium font-['Galano Grotesque'] underline leading-normal">
+                    <div className="text-white text-base font-medium font-GalanoGrotesque-medium font-['Galano Grotesque'] underline leading-normal">
                       23 orders
                     </div>
                   </div>
@@ -88,10 +88,10 @@ export default function Overview() {
             </div>
           </div>
           <div className="w-full px-6 py-2 bg-sky-800 rounded-lg justify-between items-start inline-flex">
-            <div className="text-zinc-100 text-sm font-normal font-['Galano Grotesque'] leading-tight">
+            <div className="text-zinc-100 text-sm font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-tight">
               Next payout date:
             </div>
-            <div className="text-zinc-100 text-sm font-medium font-['Galano Grotesque'] leading-tight">
+            <div className="text-zinc-100 text-sm font-medium font-GalanoGrotesque-medium font-['Galano Grotesque'] leading-tight">
               Today, 04:00PM
             </div>
           </div>
@@ -100,18 +100,18 @@ export default function Overview() {
           <div className="grow shrink basis-0 p-5 bg-white rounded-lg shadow flex-col justify-start items-start gap-4 inline-flex">
             <div className="self-stretch h-[78px] flex-col justify-start items-start gap-4 flex">
               <div className="justify-start items-center gap-2 inline-flex">
-                <div className="text-neutral-600 text-base font-normal font-['Galano Grotesque'] leading-normal">
+                <div className="text-neutral-600 text-base font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-normal">
                   Amount Pending
                 </div>
                 <img className="w-4 h-4 relative cursor-pointer" src={Help} />
               </div>
               <div className="self-stretch justify-between items-center inline-flex">
-                <div className="text-zinc-900 text-[32px] font-medium font-['Galano Grotesque'] leading-[38px]">
+                <div className="text-zinc-900 text-[32px] font-medium font-GalanoGrotesque-medium font-['Galano Grotesque'] leading-[38px]">
                   ₹92,312.20
                 </div>
                 <div className="justify-start cursor-pointer items-center flex">
                   <div className="justify-start items-start gap-2 flex">
-                    <div className="text-sky-700 text-base font-medium font-['Galano Grotesque'] underline leading-normal">
+                    <div className="text-sky-700 text-base font-medium font-GalanoGrotesque-medium font-['Galano Grotesque'] underline leading-normal">
                       13 orders
                     </div>
                   </div>
@@ -125,14 +125,14 @@ export default function Overview() {
           <div className="grow shrink basis-0 p-5 bg-white rounded-lg shadow flex-col justify-start items-start gap-4 inline-flex">
             <div className="self-stretch h-[78px] flex-col justify-start items-start gap-4 flex">
               <div className="justify-start items-center gap-2 inline-flex">
-                <div className="text-neutral-600 text-base font-normal font-['Galano Grotesque'] leading-normal">
+                <div className="text-neutral-600 text-base font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-normal">
                   Amount Processed
                 </div>
                 <img className="w-4 h-4 relative cursor-pointer" src={Help} />
               </div>
               <div className="self-stretch justify-between items-center inline-flex">
                 <div className="grow shrink basis-0 h-[38px] justify-between items-center flex">
-                  <div className="text-zinc-900 text-[32px] font-medium font-['Galano Grotesque'] leading-[38px]">
+                  <div className="text-zinc-900 text-[32px] font-medium font-GalanoGrotesque-medium font-['Galano Grotesque'] leading-[38px]">
                     ₹23,92,312.19
                   </div>
                 </div>

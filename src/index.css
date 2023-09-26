@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* src/styles/fonts.css */
+
+@font-face {
+  font-family: "GalanoGrotesqueMedium";
+  src: url("./assets/fonts/galanogrotesque-medium.woff2") format("woff2");
+  font-weight: 500; /* Adjust font weight as needed */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueSemibold";
+  src: url("./assets/fonts/galanogrotesque-semibold.woff2") format("woff2");
+  font-weight: 600; /* Adjust font weight as needed */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueRegular";
+  src: url("./assets/fonts/galanogrotesque-regular.woff2") format("woff2");
+  font-weight: 400; /* Adjust font weight as needed */
+  font-style: normal;
+}
