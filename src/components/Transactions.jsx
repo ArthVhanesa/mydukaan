@@ -24,13 +24,13 @@ export default function Transactions() {
 
       <div className="w-full mt-5 p-3 bg-white rounded-lg shadow flex-col justify-start items-start inline-flex">
         <div className="w-full mb-5 h-10 justify-between items-center inline-flex">
-          <div className="h-10 justify-start items-start flex">
+          <div className="w-[250px] h-10 justify-start items-start flex">
             <div className="grow shrink basis-0 h-10 px-4 py-2.5 bg-white rounded border-[1.5px] border-zinc-200 justify-start items-center gap-2 flex">
               <img className="w-3.5 h-3.5 relative" src={Search} />
               <input
                 type="text"
                 placeholder="Order ID or transaction ID"
-                className="bg-transparent border-0 outline-none text-neutral-500 text-sm font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-tight"
+                className="w-[200px] bg-transparent border-0 outline-none text-neutral-500 text-sm font-normal font-GalanoGrotesque-regular font-['Galano Grotesque'] leading-tight"
               />
             </div>
           </div>
