@@ -22,7 +22,7 @@ export default function SideNav() {
             <div className="w-48 justify-start items-center gap-3 inline-flex">
               <img className="w-[42px] h-[42px] rounded" src={Image} />
               <div className="grow shrink basis-0 flex-col justify-center items-start gap-1 inline-flex">
-                <div className="self-stretch text-white text-[15px] font-medium font-GalanoGrotesque-medium font-GalanoGrotesque-medium">
+                <div className="self-stretch text-white text-[15px] font-medium font-GalanoGrotesque-medium">
                   Nishyan
                 </div>
                 <div className="self-stretch opacity-80 text-white text-[13px] font-GalanoGrotesque-regular cursor-pointer underline">
