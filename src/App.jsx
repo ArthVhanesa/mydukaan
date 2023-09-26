@@ -8,9 +8,11 @@ export default function App() {
     <>
       <div className="inline-flex w-full bg-zinc-50">
         <SideNav />
-        <div className="w-full pl-56">
-          <Navbar />
-          <div className="px-8 py-4">
+        <div className="w-full ml-56">
+          <div className="fixed w-full pr-56 z-50">
+            <Navbar />
+          </div>
+          <div className="px-8 py-4 mt-16">
             <Overview />
             <Transactions />
           </div>
