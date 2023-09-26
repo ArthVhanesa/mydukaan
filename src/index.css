@@ -24,3 +24,23 @@
   font-weight: 400; /* Adjust font weight as needed */
   font-style: normal;
 }
+
+/* Add this CSS in your stylesheet */
+/* Style the scrollbar for the menu options */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+  padding-left: 15px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+/* .overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: #4a90e2;
+  border-radius: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background-color: #357abd;
+} */

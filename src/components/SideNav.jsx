@@ -17,117 +17,115 @@ export default function SideNav() {
   return (
     <>
       <div className="w-56 fixed h-full px-[10px] py-[16px] bg-slate-800 flex-col justify-between items-center gap-[16px] inline-flex">
-        <div>
-          <div className="w-52 grow shrink basis-0 flex-col justify-center items-center gap-[24px] flex">
-            <div className="w-48 justify-start items-center gap-3 inline-flex">
-              <img className="w-[42px] h-[42px] rounded" src={Image} />
-              <div className="grow shrink basis-0 flex-col justify-center items-start gap-1 inline-flex">
-                <div className="self-stretch text-white text-[15px] font-medium font-GalanoGrotesque-medium">
-                  Nishyan
-                </div>
-                <div className="self-stretch opacity-80 text-white text-[13px] font-GalanoGrotesque-regular cursor-pointer underline">
-                  Visit store
-                </div>
+        <div className="w-52 grow shrink basis-0 flex-col justify-center items-center gap-[24px] flex">
+          <div className="sticky top-0 w-48 justify-start items-center gap-3 inline-flex">
+            <img className="w-[42px] h-[42px] rounded" src={Image} />
+            <div className="grow shrink basis-0 flex-col justify-center items-start gap-1 inline-flex">
+              <div className="self-stretch text-white text-[15px] font-medium font-GalanoGrotesque-medium">
+                Nishyan
               </div>
-              <img className="w-5 h-5 relative" src={ChevronDown} />
+              <div className="self-stretch opacity-80 text-white text-[13px] font-GalanoGrotesque-regular cursor-pointer underline">
+                Visit store
+              </div>
             </div>
+            <img className="w-5 h-5 relative" src={ChevronDown} />
+          </div>
 
-            <div className="w-52 grow shrink basis-0 flex-col justify-start items-start gap-1 flex">
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Home} />
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium">
-                  Home
-                </div>
+          <div className="overflow-y-auto h-[calc(100vh - 54px)] grow shrink basis-0 flex-col justify-start items-start gap-1 flex">
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Home} />
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium">
+                Home
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Orders} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Orders} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Orders
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Orders
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Catalogue} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Catalogue} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Products
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Products
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Delivery} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Delivery} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Delivery
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Delivery
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Marketing} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Marketing} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Marketing
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Marketing
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Analytics} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Analytics} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Analytics
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Analytics
               </div>
-              <div className="w-52 px-4 py-2 bg-white bg-opacity-10 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Payments} />
+            </div>
+            <div className="w-52 px-4 py-2 bg-white bg-opacity-10 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Payments} />
 
-                <div className="text-white text-sm font-medium font-GalanoGrotesque-medium">
-                  Payouts
-                </div>
+              <div className="text-white text-sm font-medium font-GalanoGrotesque-medium">
+                Payouts
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Discounts} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Discounts} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Discounts
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Discounts
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Customers} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Customers} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Audience
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Audience
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Appearance} />
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Appearance} />
 
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Appearance
-                </div>
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Appearance
               </div>
-              <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
-                <img className="w-5 h-5 relative opacity-80" src={Plugin} />
-                <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
-                  Plugins
-                </div>
+            </div>
+            <div className="w-52 px-4 py-2 rounded justify-start items-start gap-3 inline-flex cursor-pointer">
+              <img className="w-5 h-5 relative opacity-80" src={Plugin} />
+              <div className="opacity-80 text-white text-sm font-medium font-GalanoGrotesque-medium  ">
+                Plugins
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="w-full h-[54px] px-[12px] py-[6px] bg-slate-700 rounded flex-col justify-center items-start flex">
-          <div className="justify-center items-center gap-3 inline-flex">
-            <div className="p-1.5 bg-white bg-opacity-10 rounded justify-start items-start flex">
-              <div className="w-6 h-6 relative">
-                <img
-                  className="w-[23.65px] h-[19.60px] left-[0.20px] top-[2.20px] absolute"
-                  src={Wallet}
-                />
+          <div className="w-full h-[54px] px-[12px] py-[6px] bg-slate-700 rounded flex-col justify-center items-start flex">
+            <div className="justify-center items-center gap-3 inline-flex">
+              <div className="p-1.5 bg-white bg-opacity-10 rounded justify-start items-start flex">
+                <div className="w-6 h-6 relative">
+                  <img
+                    className="w-[23.65px] h-[19.60px] left-[0.20px] top-[2.20px] absolute"
+                    src={Wallet}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="flex-col justify-center items-start gap-0.5 inline-flex">
-              <div className="opacity-80 text-white text-[13px] font-normal font-GalanoGrotesque-regular  leading-none">
-                Available credits
-              </div>
-              <div className="text-white text-base font-medium font-GalanoGrotesque-medium  leading-normal">
-                222.10
+              <div className="flex-col justify-center items-start gap-0.5 inline-flex">
+                <div className="opacity-80 text-white text-[13px] font-normal font-GalanoGrotesque-regular  leading-none">
+                  Available credits
+                </div>
+                <div className="text-white text-base font-medium font-GalanoGrotesque-medium  leading-normal">
+                  222.10
+                </div>
               </div>
             </div>
           </div>
