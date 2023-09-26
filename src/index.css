@@ -4,6 +4,10 @@
 
 /* src/styles/fonts.css */
 
+body {
+  background-color: #fafafa;
+}
+
 @font-face {
   font-family: "GalanoGrotesqueMedium";
   src: url("./assets/fonts/galanogrotesque-medium.woff2") format("woff2");
